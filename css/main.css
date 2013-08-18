@@ -1,55 +1,25 @@
-body{
-	background: gray;
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+nav li{
+	display: inline;
 }
-#wrapper{
-	width: 1024px;
-	margin: 0 auto;
-	background: gray;
-}
-.clear{
-	clear: both;
-}
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
 
-img{
-	width: 100$%;
-	height: 100%;
-}
-#dgmc_header{
-	background: white;
-}
-#logo{
-	width: 19.53125%;
-	float: left;
-}
-#logo a{
-	width: 100%;
-	overflow: hidden;
-}
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
 
-.dgmc_slogan{
-	width: 80%;
-	float: left;
-	text-align: center;
-	color: silver;
-	font-family: "Rock Salt";
-	font-size: .75em;
-	line-height: 1.5em
-	margin: 2% 15%;
-}
-#main_nav{
-`	width: 100%;
-}
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
 
-#main_nav ul{
-	width: 100%;
-	float: left;
-	list-style-type: none;
-	padding: 0;
-	line-height: 2em;
-	border-bottom: 1px solid black;
-}
-#main_nav ul li{
-	width: 20%;
-	float: left;
-	text-align: center;
-}
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {}
